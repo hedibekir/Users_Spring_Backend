@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/expatrio
+    username: expatrio
+    password: expatrio
+    driver-class-name: org.postgresql.Driver
+server:
+  error:
+    include-stacktrace: never
+    include-message: always
+
+jwt:
+  secret: 25442A462D4A614E645267556B58703273357638792F423F4528482B4B625065
+  expiration: 86400000 # a day
+  refresh-token:
+    expiration: 604800000 # 7 days
+
+springdoc:
+  api-docs:
+    path: /api-docs:
