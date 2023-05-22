@@ -17,4 +17,4 @@ jwt:
 
 springdoc:
   api-docs:
-    path: /api-docs:
+    path: /api-docs
