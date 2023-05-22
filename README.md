@@ -17,6 +17,7 @@
 * JSON Web Tokens (JWT)
 * BCrypt
 * Gradle
+* OpenAPI & SwaggerUI
 
 ## Getting Started
 To get started with this project, you will need to have the following installed on your local machine:
@@ -31,4 +32,6 @@ To build and run the project, follow these steps:
 * Navigate to the project directory: cd Users_Spring_Backend-master
 * Launch PostgresSql database container: docker-compose up
 * Build & Run the project
-* Default Admin Account Credentials: Email: admin@test.com, Password: admin  -> The application will be available at http://localhost:8080.
+* Default Admin Account Credentials: Email: admin@test.com, Password: admin
+* The application will be available at http://localhost:8080.
+* SwaggerUI will be available at http://localhost:8080/swagger-ui/index.html.
