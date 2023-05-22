@@ -30,11 +30,10 @@ class SecurityConfig(
                 auth
                     .requestMatchers(
                         "/api/v1/auth/**",
-                        "/api-docs/**",
-                        "/swagger-resources",
-                        "/swagger-resources/**",
+                        "/v3/api-docs/**",
                         "/swagger-ui/**",
-                        "/swagger-ui.html"
+                        "/v2/api-docs/**",
+                        "/swagger-resources/**"
                     )
                     .permitAll()
                     .requestMatchers("/api/v1/users/**").hasAnyRole(UserRole.ADMIN.name)
